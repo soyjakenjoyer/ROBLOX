@@ -1,4 +1,4 @@
-tool = Instance.new("Tool")
+tool = Instance.new("Tool",game.Players.LocalPlayer.Backpack)
 tool.Name = "Fight"
 handle = Instance.new("Part",tool)
 handle.Name="Handle"
