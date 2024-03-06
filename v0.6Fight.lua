@@ -4,8 +4,8 @@ handle = Instance.new("Part",tool)
 handle.Name="Handle"
 handle.Transparency=1
 handle.Size=Vector3.new(.2,.2,.2)
-anim = Instance.new'Animation'
-anim.AnimationId = 'rbxassetid://218401948'
+animob = Instance.new'Animation'
+animob.AnimationId = 'rbxassetid://218401948'
 
 tool.Equipped:connect(function(mouse)
   
